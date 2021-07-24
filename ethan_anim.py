@@ -448,4 +448,4 @@ def anim(frame):
         ax.text(55, 20, number, ha='center', va='center', color= (0,0,0,1-((frame-bound)/9)), fontsize=50, fontweight='bold')
 
 animation = fanim(fig, anim, frames = range(-60, 1100), interval = 100)
-#plt.show()
+plt.show()
